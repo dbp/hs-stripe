@@ -33,13 +33,13 @@ Library
                         , Web.Stripe.Token
                         , Web.Stripe.Utils
     Build-depends:        base                 >= 3       && < 5
-                        , text                 >= 0.11.0  && < 0.12
-                        , aeson                >= 0.6.1   && < 0.7
+                        , text
+                        , aeson                >= 0.6.1
                         , unordered-containers >= 0.1.4.6 && < 0.3
-                        , time                 >= 1.0.0   && < 1.5
-                        , http-conduit         >= 2.0.0   && < 2.0.1
+                        , time                 >= 1.0.0   && < 1.6
+                        , http-conduit         >= 2.0.0
                         , http-types           >= 0.6.11  && < 0.9
                         , bytestring           >= 0.9     && < 0.11
-                        , mtl                  >= 2.1     && < 2.2
-                        , utf8-string          >= 0.3.7   && < 0.4
+                        , mtl                  >= 2.1
+                        , utf8-string          >= 0.3.7
     extensions:         OverloadedStrings, TupleSections
